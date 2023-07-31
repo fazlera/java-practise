@@ -68,16 +68,49 @@
 // }
 
 // task 9
-var bookPrice = [50,60,10,150,100,199,199.99,201,200, 220,290,250 ];
+// var bookPrice = [50,60,10,150,100,199,199.99,201,200, 220,290,250 ];
 
 
-for(var i = 0; i <bookPrice.length; i++){
+// for(var i = 0; i <bookPrice.length; i++){
     
-    var element = bookPrice[i];
+//     var element = bookPrice[i];
 
-    if(element > 200){
-        break;
-    }
+//     if(element > 200){
+//         break;
+//     }
 
-    console.log(element);
+//     console.log(element);
+// }
+
+// task 10
+// var x = 80000;
+// if( x > 80000){
+//     console.log('i will bye gaming laptop');
+// }
+// else if(x > 60000){
+//     console.log('i will lenevo laptop');
+// }
+// else if( x > 40000){
+//     console.log('i will used laptop');
+// }
+// else{
+//     console.log('i will buy mobile');
+// }
+
+var money = 80000;
+var gaming= 80000;
+var lenovo = 60000;
+var used   = 20000;
+
+if(gaming <= money){
+    console.log('i will buy gaming laptop');
+}
+else if(lenovo < money){
+    console.log('i will buy lenovo');
+}
+else if(used < money){
+    console.log('i will buy used laptop');
+}
+else{
+    console.log('toy mobile nie barit ja foot');
 }
