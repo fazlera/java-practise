@@ -1,11 +1,11 @@
 // task 1
 
-// for (var i = 1; i <= 39; i++) {
-//     console.log(i);
-//     console.log('ajke amar mon valo ney');
+for (var i = 1; i <= 39; i++) {
+    // console.log(i);
+    console.log('ajke amar mon valo ney');
 
     
-// }
+}
 
 // task 2
 // for(var i = 58; i <= 98; i++){
@@ -97,20 +97,51 @@
 //     console.log('i will buy mobile');
 // }
 
-var money = 80000;
-var gaming= 80000;
-var lenovo = 60000;
-var used   = 20000;
+// var money = 80000;
+// var gaming= 80000;
+// var lenovo = 60000;
+// var used   = 20000;
 
-if(gaming <= money){
-    console.log('i will buy gaming laptop');
-}
-else if(lenovo < money){
-    console.log('i will buy lenovo');
-}
-else if(used < money){
-    console.log('i will buy used laptop');
-}
-else{
-    console.log('toy mobile nie barit ja foot');
-}
+// if(gaming <= money){
+//     console.log('i will buy gaming laptop');
+// }
+// else if(lenovo < money){
+//     console.log('i will buy lenovo');
+// }
+// else if(used < money){
+//     console.log('i will buy used laptop');
+// }
+// else{
+//     console.log('toy mobile nie barit ja foot');
+// }
+// var price = 200;
+// console.log(typeof price);
+
+// var pasenger = 213;
+// var bus      = pasenger % 50;
+// var car      = bus % 11;
+// var vanVara     = car * 70;
+// console.log(vanVara);
+
+// var nam = "23.82";
+// var nam = parseInt(nam);
+// var num = parseFloat(nam)
+// console.log(num.toFixed(1));
+
+var isRain   = true;
+var umbreala = true;
+
+// if(isRain === true && umbreala === true){
+//     if(isRain === false || umbreala === true){
+//         console.log('akon jabo obossoy jabo')
+//     }else{
+//         console.log('aktu pore jabo');
+//     }
+//     console.log('biri kaite jabo')
+// }
+// else(
+//     console.log('jabo na ')
+// )
+
+isRain === true ? isRain===false?  console.log('biri kaite jabo ')
+: console.log('aktu por jabo') : console.log('jabo na');
