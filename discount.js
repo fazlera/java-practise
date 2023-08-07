@@ -44,14 +44,17 @@ function price(tickectQuantity){
         const first100TicketPrice  = 100 * first100Ticket;
         const second200TicketPrice = 100 * second200Ticket;
         const third300TicketPrice  = 100 * restover200Ticket;
-        const fourth400TicketPrice = tickectQuantity - 400;
-        const lastFinalTicketPrice = fourth400TicketPrice * lastFinalTicketRate;
+        const fourth400TicketPrice = 100 * lastTiceketRate;
+        const fourth400TicketQuantity = tickectQuantity - 400;
+        const lastFinalTicketPrice = fourth400TicketQuantity * lastFinalTicketRate;
+
         const lastFinalTicketQuantyTotal = first100TicketPrice + second200TicketPrice + third300TicketPrice + fourth400TicketPrice + lastFinalTicketPrice;
+
         return lastFinalTicketQuantyTotal;
     }
    
     
 }
 
-const totalTicketPrice = price(420);
+const totalTicketPrice = price(500);
 console.log(totalTicketPrice);
