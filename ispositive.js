@@ -12,8 +12,6 @@ function isPositive(number){
     }
 }
 
-
-
 const multiNumber = [45,-87,96,11,92,-49,21,-36,72,59,-36];
 const positiveNumber = isPositive(multiNumber);
 console.log(multiNumber);
