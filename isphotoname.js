@@ -65,8 +65,10 @@
 // console.log(myString);
 
 function sortMaker(arr){
-    for(let item of arr)
-
+  for(let i = 0; i < arr.length; i++){
+    console.log(i);
+  }
+    
 }
 console.log(sortMaker([2,3]));
 
