@@ -6,7 +6,7 @@ function objSentance(sentance){
         const brand = sentance.brand || 'nai'
         const price = sentance.price || 'nai'
         const camera = sentance.camera || 'nai'
-        const storage = sentance.storage || 'nai'
+        const storage = sentance.storage || '___,___'
 
         const myString = 'amar phner brand '+brand + '. amar phner price '+price + '. amar phoner camera '+camera + '. amar phoner storage '+ storage + '.';
 
@@ -19,7 +19,7 @@ const smartPhone = {
     brand: 'samsung',
     price: 21000,
     camera: '1000mxp',
-    storage: ''
+    storage: 
 }
 const totalSentance = objSentance(smartPhone);
 console.log(totalSentance);

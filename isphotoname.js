@@ -42,5 +42,31 @@
 
 
 
-let cube = Math.pow(4,3);
-console.log(cube);
+// function cube(number){
+
+//     let result = Math.pow(number,3);
+//     return result;
+// }
+// console.log(cube(3));
+// console.log(cube(4));
+
+// function matchFinder(string1, string2){
+
+    // let match1 = string1;
+    // let match2 = string2;
+
+//     if(string1.includes('Code') === string2.includes("Code")){
+//         return true
+//     }
+//     return false;
+    
+// }
+// const myString = matchFinder('Javasript','Code');
+// console.log(myString);
+
+function sortMaker(arr){
+    for(let item of arr)
+
+}
+console.log(sortMaker([2,3]));
+
