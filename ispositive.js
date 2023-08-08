@@ -5,8 +5,8 @@ function isPositive(number){
     else{
         let allPositiveNumber = [];
         for (const item of number) {
-            if(item > 0){
-                allPositiveNumber.push(item);
+            if(item < 0){
+                allPositiveNumber++;
             }
         }return allPositiveNumber;
     }
@@ -14,4 +14,4 @@ function isPositive(number){
 
 const multiNumber = [45,-87,96,11,92,-49,21,-36,72,59,-36];
 const positiveNumber = isPositive(multiNumber);
-console.log(multiNumber);
+console.log(positiveNumber);
