@@ -19,7 +19,7 @@ const smartPhone = {
     brand: 'samsung',
     price: 21000,
     camera: '1000mxp',
-    storage: 
+    storage: ''
 }
 const totalSentance = objSentance(smartPhone);
 console.log(totalSentance);
